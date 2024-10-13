@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/logo.svg" type="image/png">
+
+  <!-- image preloading -->
+  <link rel="preload" as="image" href="./images/food-0.png">
+  <link rel="preload" as="image" href="./images/food-1.png">
+  <link rel="preload" as="image" href="./images/food-2.png">
+  <link rel="preload" as="image" href="./images/food-3.png">
+
+  <title>KFC Lnading Page | Mzansi</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,regular,500,700" rel="stylesheet" />
+  <!-- personal css -->
+  <link rel="stylesheet" href="./assets/style.min.css">
+</head>
+
+<body>
+
+  <section class="main">
+
+    <header>
+      <a href="https://order.kfc.co.za/"><img src="./images/logo.png" alt="KFC logo" class="logo"></a>
+      <div class="toggle"></div>
+      <ul class="navigation">
+        <li><a href="https://order.kfc.co.za/">Home</a></li>
+        <li><a href="https://order.kfc.co.za/menu/">Menu</a></li>
+        <li><a href="https://global.kfc.com/">About</a></li>
+        <li><a href="https://order.kfc.co.za/contact-kfc">Contact</a></li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <div class="text">
+        <h2>It's Finger<br>Lickin <span>Good.</span></h2>
+        <p>We want to be a home filled with Bucketloads of Good for all. So, we are building KFC to reflect a world in which all people have an equal place to live and thrive. We do this for the more than 30,000 people we employ across Africa, the customers we love to serve, and the communities around us.</p>
+        <a href="https://order.kfc.co.za/" class="btn">Order Now</a>
+      </div>
+
+      <div class="slider">
+        <div class="slides active">
+          <img src="./images/food-0.png" alt="Burder Fries">
+        </div>
+        <!-- <div class="slides">
+          <img src="./images/french_fries.png" alt="French Fries">
+        </div>
+        <div class="slides">
+          <img src="./images/burger.png" alt="Burger">
+        </div>
+        <div class="slides">
+          <img src="./images/fried_chicken.png" alt="Fried Chicken">
+        </div>
+      </div>
+    </div> -->
+
+      <div class="prevNext">
+        <p>Always Fresh</p>
+        <span class="prev">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </span>
+        <span class="next">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </span>
+      </div>
+
+  </section>
+
+  <!-- ionicons CDN -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- personal js -->
+  <script src="./assets/app.min.js"></script>
+</body>
+
+</html>
