@@ -23,10 +23,10 @@ const sliderFunc = function (count) {
   slidesImg.src = `./images/food-${count}.png`;
 }
 next.addEventListener('click', function () {
-  count = count >= 4 ? 0 : count + 1; // count = count + 1
+  count = count >= 5 ? 0 : count + 1; // count = count + 1
   sliderFunc(count);
 });
 prev.addEventListener('click', function () {
-  count = count <= 0 ? 4 : count - 1; // count = count - 1
+  count = count <= 0 ? 5 : count - 1; // count = count - 1
   sliderFunc(count);
 });
