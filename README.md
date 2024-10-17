@@ -1,5 +1,9 @@
 # KFC Landing Page
 
+## Preview
+
+![KFC Landing Page](./images/kfc-landing-page.png)
+
 A simple and clean landing page created for my favorite franchise, KFC. This project showcases KFC’s iconic branding and offerings, built using **HTML**, **CSS**, and **JavaScript**. The page provides an engaging and responsive user interface.
 
 ## Features
